@@ -2,6 +2,17 @@
 IMPORT
 ******************************************/
 
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 3px solid #fff;
+  background-color: #b6b6b6;
+  border-radius: 1em;
+}
+
 @font-face {
   font-family: "Flaticon";
   src: url("fonts/Flaticon.eot");
@@ -201,11 +212,15 @@ HEADER
 ******************************************/
 
 .topbar {
-  background-color: #16b4d8;
-  margin-bottom: 30px;
-  padding: 12px 0 14px;
+  /* margin-bottom: 10px; */
+  background-color: #000000;
+  padding: 8px 0;
 }
 
+.topbar a:focus,
+.topbar p:focus,
+.topbar a:hover,
+.topbar p:hover,
 .topbar a,
 .topbar p {
   color: #fff;
@@ -222,13 +237,14 @@ HEADER
 }
 
 .header {
+  padding: 0 0 15px 0 !important;
   position: absolute;
   z-index: 111;
   left: 0;
   top: 0;
   right: 0;
   padding: 0;
-  background-color: transparent;
+  background-color: white;
   text-decoration: none !important;
   -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
@@ -285,10 +301,11 @@ HEADER
   background-color: transparent;
   background: none;
   border: 0;
+  padding-top: 13px;
 }
 
 .navbar-default .nav>li>a {
-  color: #fff !important;
+  color: #000 !important;
   text-transform: capitalize;
   font-size: 15px;
   font-weight: 500;
@@ -584,7 +601,7 @@ PAGES
 .breadcrumb>li a,
 .breadcrumb>li+li::before,
 .breadcrumb>.active {
-  color: white;
+  color: #ffffff;
 }
 
 .section.cb .breadcrumb>li a,
@@ -1019,7 +1036,7 @@ SECTIONS
 }
 
 .section.db {
-  background-color: #16b4d8;
+  background-color: #1291f8;
 }
 
 .overlay {
@@ -1233,6 +1250,12 @@ COURSE MODULES
   font-size: 16px;
   line-height: 1;
   font-family: Arial;
+}
+
+footer a:hover,
+footer a:focus,
+footer a:active {
+  color: #eee !important;
 }
 
 .entry {
@@ -1692,7 +1715,7 @@ TESTIMONIAL
 }
 
 .p120 {
-  padding-bottom: 120px !important;
+  padding: 130px 0 70px;
 }
 
 .section.lb {
@@ -1894,7 +1917,7 @@ FOOTER
 
 .section.footer {
   padding: 12rem 0 5rem 0;
-  background-color: #16b4d8;
+  background-color: #212529;
 }
 
 .social-links i {
@@ -1902,7 +1925,7 @@ FOOTER
 }
 
 .widget-title {
-  color: #ffffff;
+  color: #fffbfb;
   font-size: 20px;
   padding: 0 0 30px;
   margin: 0;
@@ -1918,14 +1941,19 @@ FOOTER
 }
 
 .copyrights {
-  background-color: #33fad8;
-  border-top: 1px solid #16b4d8;
+  background-color: #030b18;
+  border-top: 2px dotted #212a36;
   padding: 30px 0;
 }
 
+.copyrights a:focus,
+.copyrights a:focus,
+.copyrights a:hover,
+.copyrights a:hover,
 .copyrights a {
-  color: #aaa;
+  color: #fbe3e3;
 }
+
 
 .cop-logo img {
   margin-top: 9px;
@@ -2094,7 +2122,10 @@ COLOR BLUE
 ******************************************/
 
 .yamm .dropdown .dropdown-menu {
-  border-top-color: #01bacf;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-top-color: #bbbbbb;
+  border-bottom-color: #bbb;
 }
 
 .iconitem a.shopicon i {
@@ -2125,7 +2156,7 @@ a:hover,
 a:focus,
 .box i,
 .topbar .text-left i {
-  color: white;
+  color: black;
 }
 
 .shop-extra .nav-tabs>li:hover a,
@@ -2343,19 +2374,19 @@ footer h2,
 footer h3,
 footer h4,
 footer h5 {
-  color: #fff;
+  color: #000;
 }
 
 .footer.noover .footer-logo {
   text-align: center;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 }
 
 .footer.noover .footer-logo img {
-  width: 80%;
+  width: 100%;
 }
 
 .footer.noover ul li {
@@ -2369,7 +2400,7 @@ footer h5 {
 }
 
 .logo-normal .navbar-brand h2 {
-  color: #fff;
+  color: #1291f8;
   position: relative;
   top: -6px;
 }
@@ -2381,4 +2412,33 @@ footer h5 {
   height: 100%;
   top: 0;
   left: 0;
+}
+
+@media (max-width: 991px) {
+  .footer.noover .footer-logo img {
+    top: -45px;
+    position: relative;
+    width: 50%;
+  }
+}
+
+.breadcrumb a {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+  .footer.noover .footer-logo img {
+    transform: translate(0%, 15%);
+  }
+}
+
+.header.affix-top #navbar[aria-expanded="true"] {
+  box-shadow: 0px 3px 4px #00000038;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+.tagline-message.page-title.text-center {
+  padding: 50px 0 0 0;
 }
