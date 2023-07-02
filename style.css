@@ -160,8 +160,7 @@ a {
   margin: 10px 0;
 }
 
-.check li a {
-}
+.check li a {}
 
 .authorbox,
 blockquote {
@@ -202,7 +201,7 @@ HEADER
 ******************************************/
 
 .topbar {
-  background-color: #000;
+  background-color: #16b4d8;
   margin-bottom: 30px;
   padding: 12px 0 14px;
 }
@@ -248,7 +247,7 @@ HEADER
   background-color: #fff;
 }
 
-.header-normal .navbar-default .nav > li > a {
+.header-normal .navbar-default .nav>li>a {
   color: #848484 !important;
 }
 
@@ -263,7 +262,7 @@ HEADER
   right: 0;
 }
 
-.header.affix .navbar-default .nav > li > a {
+.header.affix .navbar-default .nav>li>a {
   color: black !important;
 }
 
@@ -288,7 +287,7 @@ HEADER
   border: 0;
 }
 
-.navbar-default .nav > li > a {
+.navbar-default .nav>li>a {
   color: #fff !important;
   text-transform: capitalize;
   font-size: 15px;
@@ -337,10 +336,10 @@ HEADER
   opacity: 0.8;
 }
 
-.navbar-default .navbar-nav .open .dropdown-menu > li > a,
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
+.navbar-default .navbar-nav .open .dropdown-menu>li>a,
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
   background-color: transparent !important;
 }
 
@@ -456,8 +455,7 @@ MEGA MENU
   position: relative;
 }
 
-.yamm .dropdown.yamm-fw .dropdown-menu {
-}
+.yamm .dropdown.yamm-fw .dropdown-menu {}
 
 .yamm .dropdown {
   position: relative;
@@ -494,6 +492,7 @@ MEGA MENU
 .yamm .dropdown-menu li:hover a {
   padding-left: 10px !important;
   background-color: transparent;
+  color: #000 !important;
 }
 
 .yamm-fw .dropdown-menu li:hover a {
@@ -582,15 +581,15 @@ PAGES
   padding: 0;
 }
 
-.breadcrumb > li a,
-.breadcrumb > li + li::before,
-.breadcrumb > .active {
-  color: #aaa;
+.breadcrumb>li a,
+.breadcrumb>li+li::before,
+.breadcrumb>.active {
+  color: white;
 }
 
-.section.cb .breadcrumb > li a,
-.section.cb .breadcrumb > li + li::before,
-.section.cb .breadcrumb > .active {
+.section.cb .breadcrumb>li a,
+.section.cb .breadcrumb>li+li::before,
+.section.cb .breadcrumb>.active {
   color: #fff;
 }
 
@@ -608,7 +607,7 @@ PAGES
   margin: 0 !important;
 }
 
-.breadcrumb > li + li::before {
+.breadcrumb>li+li::before {
   content: "\f107";
   vertical-align: middle;
   padding-left: 5px;
@@ -624,10 +623,10 @@ PAGES
   font-size: 14px;
 }
 
-.pagination > li:first-child > a,
-.pagination > li:first-child > span,
-.pagination > li:last-child > a,
-.pagination > li:last-child > span {
+.pagination>li:first-child>a,
+.pagination>li:first-child>span,
+.pagination>li:last-child>a,
+.pagination>li:last-child>span {
   border-radius: 0;
 }
 
@@ -639,8 +638,8 @@ PAGES
   margin: 0;
 }
 
-.pagination > li > a,
-.pagination > li > span {
+.pagination>li>a,
+.pagination>li>span {
   background-color: #fff;
   border: 1px solid #eeeeee !important;
   color: #999;
@@ -653,8 +652,8 @@ PAGES
   text-decoration: none;
 }
 
-.pager li > a,
-.pager li > span {
+.pager li>a,
+.pager li>span {
   background-color: #2c2f33;
   border: 1px solid #2c2f33;
   color: #fff;
@@ -1020,7 +1019,7 @@ SECTIONS
 }
 
 .section.db {
-  background-color: #000000;
+  background-color: #16b4d8;
 }
 
 .overlay {
@@ -1396,7 +1395,7 @@ BLOG
 }
 
 .media-right,
-.media > .pull-right {
+.media>.pull-right {
   color: #999 !important;
   font-size: 11px;
   letter-spacing: 2px;
@@ -1548,7 +1547,7 @@ BLOG
   color: #aaa;
 }
 
-.post-meta .list-inline > li {
+.post-meta .list-inline>li {
   padding-left: 0;
   padding-right: 0;
   margin-right: 10px;
@@ -1795,7 +1794,7 @@ SHOP
 }
 
 .btn-group.open .dropdown-toggle,
-.bootstrap-select > .dropdown-toggle {
+.bootstrap-select>.dropdown-toggle {
   background: #ffffff none repeat scroll 0 0 !important;
   box-shadow: none !important;
   color: #b9b9b9 !important;
@@ -1838,7 +1837,7 @@ SHOP
   border: 3px solid #f6f6f6;
 }
 
-.shop-extra .nav-tabs > li > a {
+.shop-extra .nav-tabs>li>a {
   background-color: #ffffff !important;
   border: 0 !important;
   border-bottom: 3px solid transparent !important;
@@ -1856,8 +1855,8 @@ SHOP
   border-bottom: 3px solid #f6f6f6 !important;
 }
 
-.shop-extra .nav-tabs > li:hover a,
-.shop-extra .nav-tabs > li.active a {
+.shop-extra .nav-tabs>li:hover a,
+.shop-extra .nav-tabs>li.active a {
   border-bottom-color: #111 !important;
 }
 
@@ -1895,7 +1894,7 @@ FOOTER
 
 .section.footer {
   padding: 12rem 0 5rem 0;
-  background-color: #000;
+  background-color: #16b4d8;
 }
 
 .social-links i {
@@ -1919,8 +1918,8 @@ FOOTER
 }
 
 .copyrights {
-  background-color: #000;
-  border-top: 1px solid #181818;
+  background-color: #33fad8;
+  border-top: 1px solid #16b4d8;
   padding: 30px 0;
 }
 
@@ -1985,7 +1984,7 @@ FOOTER
 .footer .form-control,
 .footer p,
 .footer a {
-  color: #aaa;
+  color: white;
 }
 
 .footer a:hover {
@@ -2111,7 +2110,7 @@ blockquote:after,
 .small-box i,
 .copyrights ul li:hover a,
 .footer .readmore,
-.breadcrumb > li a,
+.breadcrumb>li a,
 .yamm h4,
 .yamm-content li:hover a,
 .yamm .hassubmenu li:hover a,
@@ -2126,11 +2125,11 @@ a:hover,
 a:focus,
 .box i,
 .topbar .text-left i {
-  color: #01bacf;
+  color: white;
 }
 
-.shop-extra .nav-tabs > li:hover a,
-.shop-extra .nav-tabs > li.active a,
+.shop-extra .nav-tabs>li:hover a,
+.shop-extra .nav-tabs>li.active a,
 .modal .form-control,
 .form-control:focus,
 .btn-transparent {
@@ -2140,12 +2139,12 @@ a:focus,
 .cb,
 .box .event-desc small,
 .pagination a,
-.pagination > .active > a,
-.pagination > .active > a:focus,
-.pagination > .active > a:hover,
-.pagination > .active > span,
-.pagination > .active > span:focus,
-.pagination > .active > span:hover,
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover,
+.pagination>.active>span,
+.pagination>.active>span:focus,
+.pagination>.active>span:hover,
 .tags-widget a,
 .owl-theme-01 .owl-nav [class*="owl-"]:hover,
 .yamm .dropdown-menu li:hover .menu-button,
@@ -2235,8 +2234,9 @@ RESPONSIVE
 }
 
 @media (max-width: 768px) {
-  .shop-extra .nav-tabs > li > a,
-  .shop-extra .nav-tabs > li {
+
+  .shop-extra .nav-tabs>li>a,
+  .shop-extra .nav-tabs>li {
     float: none;
     display: block;
     width: 100%;
@@ -2262,7 +2262,7 @@ RESPONSIVE
   }
 
   .media-left,
-  .media > .pull-left {
+  .media>.pull-left {
     display: block;
     float: none;
     margin: 0 0 30px;
@@ -2281,8 +2281,8 @@ RESPONSIVE
     position: relative;
   }
 
-  .hassubmenu:hover > ul,
-  .yamm-fw:hover > ul {
+  .hassubmenu:hover>ul,
+  .yamm-fw:hover>ul {
     visibility: visible;
     opacity: 1;
     top: 100%;
@@ -2312,8 +2312,8 @@ RESPONSIVE
     border-radius: 0;
   }
 
-  .hassubmenu > ul,
-  .yamm-fw > ul {
+  .hassubmenu>ul,
+  .yamm-fw>ul {
     position: absolute;
     top: 160%;
     visibility: hidden;
@@ -2321,11 +2321,11 @@ RESPONSIVE
     opacity: 0;
   }
 
-  .yamm-fw > ul li {
+  .yamm-fw>ul li {
     position: relative;
   }
 
-  .yamm-fw > ul li:hover > ul {
+  .yamm-fw>ul li:hover>ul {
     visibility: visible;
     opacity: 1;
     left: 100%;
@@ -2333,7 +2333,7 @@ RESPONSIVE
 }
 
 @media (max-width: 1200px) {
-  .nav > li > a {
+  .nav>li>a {
     padding: 1em 0.7em;
   }
 }
