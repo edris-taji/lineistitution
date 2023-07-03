@@ -834,10 +834,6 @@ teammembers .magnifier {
 CONTACT
 ******************************************/
 
-.contactv2 {
-  margin: 60px 0;
-}
-
 .small-box i {
   font-size: 54px;
   color: #232323;
@@ -1917,7 +1913,7 @@ FOOTER
 
 .section.footer {
   padding: 12rem 0 5rem 0;
-  background-color: #212529;
+  background: radial-gradient(#212529, #16202a);
 }
 
 .social-links i {
@@ -1941,8 +1937,8 @@ FOOTER
 }
 
 .copyrights {
-  background-color: #030b18;
-  border-top: 2px dotted #212a36;
+  background-color: #111214;
+  border-top: 2px dotted #23252a;
   padding: 30px 0;
 }
 
@@ -2441,4 +2437,27 @@ footer h5 {
 
 .tagline-message.page-title.text-center {
   padding: 50px 0 0 0;
+}
+
+.small-box {
+  /* padding: 0 0 0 70px; */
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.small-box i {
+  margin: 0 15px;
+  color: #028d9d;
+}
+
+.small-box div * {
+  color: #028d9d !important;
+  font-weight: 500 !important;
+}
+
+
+.contactv2 {
+  margin: 60px 0;
+  padding: 50px;
 }
