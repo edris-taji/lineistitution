@@ -1,400 +1,554 @@
+<!-- @format -->
+
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html
+	class="no-js"
+	lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>LINE CIVIC INSTITUTION</title>
+		<meta
+			name="keywords"
+			content="" />
+		<meta
+			name="description"
+			content="" />
+		<meta
+			name="author"
+			content="" />
 
-  <title>LINE CIVIC INSTITUTION</title>
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+		<link
+			rel="shortcut icon"
+			href="images/favicon.ico"
+			type="image/x-icon" />
+		<link
+			rel="apple-touch-icon"
+			href="images/apple-touch-icon.png" />
 
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900"
+			rel="stylesheet" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i"
+			rel="stylesheet" />
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="css/bootstrap.min.css" />
+		<link
+			rel="stylesheet"
+			href="css/font-awesome.min.css" />
+		<link
+			rel="stylesheet"
+			href="css/carousel.css" />
+		<link
+			rel="stylesheet"
+			href="css/animate.css" />
+		<link
+			rel="stylesheet"
+			href="style.css" />
+	</head>
 
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/font-awesome.min.css" />
-  <link rel="stylesheet" href="css/carousel.css" />
-  <link rel="stylesheet" href="css/animate.css" />
-  <link rel="stylesheet" href="style.css" />
-</head>
+	<body>
+		<div id="preloader">
+			<div class="preloader"></div>
+		</div>
 
-<body>
-  <div id="preloader">
-    <img class="preloader" src="images/loader.gif" alt="" />
-  </div>
+		<div id="wrapper">
+			<div
+				class="modal fade"
+				id="login-modal"
+				tabindex="-1"
+				role="dialog"
+				aria-hidden="true"
+				style="display: none">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div id="div-forms"></div>
+					</div>
+				</div>
+			</div>
+			<header
+				class="header"
+				style="padding: 10px">
+				<div class="container">
+					<nav class="navbar navbar-default yamm">
+						<div class="navbar-header">
+							<button
+								type="button"
+								class="navbar-toggle collapsed"
+								data-toggle="collapse"
+								data-target="#navbar"
+								aria-expanded="false"
+								aria-controls="navbar">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<div class="logo-normal">
+								<a
+									class="navbar-brand"
+									href="index.html">
+									<img
+										src="images/logo.png"
+										alt="" />
+									<h2>LINE</h2>
+								</a>
+							</div>
+						</div>
 
-  <div id="wrapper">
+						<div
+							id="navbar"
+							class="navbar-collapse collapse">
+							<ul class="nav navbar-nav navbar-right">
+								<li class="li-anim"><a href="index.html">Home</a></li>
+								<li class="dropdown hassubmenu li-anim li2">
+									<a
+										href="about.html"
+										class="dropdown-toggle"
+										data-toggle="dropdown"
+										role="button"
+										aria-expanded="false"
+										>About <span class="fa fa-angle-down"></span
+									></a>
+									<ul
+										class="dropdown-menu"
+										role="menu">
+										<li><a href="aboutUs.html">About US</a></li>
+										<li><a href="aboutFounder.html">About Founder</a></li>
+										<li><a href="members.html">Members</a></li>
+										<li><a href="ourCollections.html">Our Collections</a></li>
+										<!-- <li>
+                    <a href="effectivePersonalities.html">Effective Personalities</a>
+                  </li>
+                  <li>
+                    <a href="lettersOfAppreciation.html">Letters of Appreciation</a>
+                  </li> -->
+									</ul>
+								</li>
+								<li class="dropdown hassubmenu li-anim li3">
+									<a
+										href="about.html"
+										class="dropdown-toggle"
+										data-toggle="dropdown"
+										role="button"
+										aria-expanded="false"
+										>Activities <span class="fa fa-angle-down"></span
+									></a>
+									<ul
+										class="dropdown-menu"
+										role="menu">
+										<li><a href="activities.html">Civic Activities</a></li>
+										<li><a href="classes.html">Classes</a></li>
+										<!-- <li><a href="contracts.html">Contracts</a></li> -->
+										<li><a href="graduates.html">Graduates</a></li>
+										<!-- <li><a href="relationships.html">Relationships</a></li> -->
+										<li><a href="seminars.html">Seminars</a></li>
+										<li><a href="workshops.html">Workshops</a></li>
+										<li><a href="conferances.html">Conferances</a></li>
+									</ul>
+								</li>
+								<li class="dropdown hassubmenu li-anim li4">
+									<a
+										href="about.html"
+										class="dropdown-toggle"
+										data-toggle="dropdown"
+										role="button"
+										aria-expanded="false"
+										>Publications <span class="fa fa-angle-down"></span
+									></a>
+									<ul
+										class="dropdown-menu"
+										role="menu">
+										<li><a href="article.html">Articles</a></li>
+										<li><a href="proposals.html">Proposals</a></li>
+										<li><a href="books.html">Books</a></li>
+									</ul>
+								</li>
+								<li class="dropdown hassubmenu li-anim li5">
+									<a
+										href="about.html"
+										class="dropdown-toggle"
+										data-toggle="dropdown"
+										role="button"
+										aria-expanded="false"
+										>Free Studies <span class="fa fa-angle-down"></span
+									></a>
+									<ul
+										class="dropdown-menu"
+										role="menu">
+										<li><a href="researches.html">Researches</a></li>
+									</ul>
+								</li>
+								<li class="li-anim li6 act">
+									<a href="committees.html">Committees</a>
+								</li>
+								<li class="li-anim li7">
+									<a href="contact.html">Contact</a>
+								</li>
+								<div class="animation start-home"></div>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</header>
 
-    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div id="div-forms">
-          </div>
-        </div>
-      </div>
-    </div>
-    <header class="header" style="padding: 10px">
+			<section class="section db p120">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="tagline-message page-title text-center">
+								<h3>Committees</h3>
+								<ul class="breadcrumb">
+									<li><a href="https://lineinstitution.com">LINE</a></li>
+									<li class="active">Committees</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section">
+				<div class="container">
+					<div class="">
+						<div class="row display-flex">
+							<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 my-20px">
+								<div class="course-box box home wow fadeInUp">
+									<div class="course-details">
+										<h4>Fundraising and Development Committee</h4>
+										<p>
+											The Fundraising and Development Committee is responsible
+											for securing financial resources to support the
+											institution's initiatives. They strategize and execute
+											fundraising campaigns, seek sponsorships, and cultivate
+											relationships with donors to ensure the institution's
+											sustainability and growth.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 my-20px">
+								<div class="course-box box home wow fadeInUp">
+									<div class="course-details">
+										<h4>Governance and Ethics Committee</h4>
+										<p>
+											The Governance and Ethics Committee ensures transparency,
+											accountability, and adherence to ethical standards within
+											the civic institution. They develop and review policies,
+											monitor compliance, and provide guidance to maintain
+											integrity and uphold the organization's values.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 my-20px">
+								<div class="course-box box home wow fadeInUp">
+									<div class="course-details">
+										<h4>Volunteer and Volunteerism Committee</h4>
+										<p>
+											This committee oversees the institution's volunteer
+											program, recruiting and managing volunteers who contribute
+											their time and expertise. They assess volunteer needs,
+											provide training and support, and recognize volunteers'
+											efforts in advancing the institution's mission.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 my-20px">
+								<div class="course-box box home wow fadeInUp">
+									<div class="course-details">
+										<h4>Education Committee</h4>
+										<p>
+											This committee focuses on developing and improving
+											educational programs and initiatives within the civic
+											institution. They collaborate with educators,
+											administrators, and community members to ensure quality
+											education and promote lifelong learning.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 my-20px">
+								<div class="course-box box home wow fadeInUp">
+									<div class="course-details">
+										<h4>Sustainability Committee</h4>
+										<p>
+											The Sustainability Committee works towards making the
+											institution environmentally responsible and sustainable.
+											They develop and implement strategies for reducing energy
+											consumption, managing waste, promoting conservation, and
+											raising awareness about sustainable practices.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 my-20px">
+								<div class="course-box box home wow fadeInUp">
+									<div class="course-details">
+										<h4>Health and Wellness Committee</h4>
+										<p>
+											The Health and Wellness Committee promotes physical and
+											mental well-being within the institution. They organize
+											health-related events, provide resources on nutrition and
+											fitness, and advocate for a healthy work environment.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 my-20px">
+								<div class="course-box box home wow fadeInUp">
+									<div class="course-details">
+										<h4>Arts and Culture Committee</h4>
+										<p>
+											The Arts and Culture Committee aims to enrich the
+											community by promoting artistic expression and cultural
+											appreciation. They organize exhibitions, performances,
+											workshops, and events that celebrate various forms of art,
+											music, dance, and theater.
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 my-20px">
+								<div class="course-box box home wow fadeInUp">
+									<div class="course-details">
+										<b>Outreach & Engagement Committee</b>
+										<p>
+											The Outreach and Engagement Committee focuses on engaging
+											with the local community and expanding the institution's
+											reach. They establish partnerships, organize community
+											outreach programs, and promote active participation to
+											foster a sense of belonging and inclusion.
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-      <div class="container">
-        <nav class="navbar navbar-default yamm">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-              aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div class="logo-normal">
-              <a class="navbar-brand" href="index.html">
-                <img src="images/logo.png" alt="" />
-                <h2>LINE</h2>
-              </a>
-            </div>
-          </div>
+			<footer
+				class="container-fluid bg-dark text-light wow fadeInUp section footer noover"
+				data-wow-delay="0.1s"
+				style="
+					visibility: visible;
+					animation-delay: 0.1s;
+					animation-name: fadeInUp;
+				">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 footer-about">
+							<div class="footer-logo">
+								<img
+									src="images/complete-full-logo.png"
+									alt="" />
+							</div>
+						</div>
 
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="index.html">Home</a></li>
+						<div
+							class="col-xl-3 col-lg-3 col-md-4 col-sm-4 media_min-width_991px media_min-width_991px_pt pt-5 mb-5">
+							<div
+								class="section-title section-title-sm position-relative pb-3 mb-4">
+								<h3 class="text-light mb-0">Get In Touch</h3>
+							</div>
+							<div class="d-flex mb-2">
+								<i class="bi bi-geo-alt text-primary me-2"></i>
 
-              <li class="dropdown hassubmenu">
-                <a href="about.html" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                  aria-expanded="false">About <span class="fa fa-angle-down"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="aboutUs.html">About US</a></li>
-                  <li><a href="aboutFounder.html">About Founder</a></li>
-                  <li><a href="members.html">Members</a></li>
-                  <li><a href="ourCollections.html">Our Collections</a></li>
+								<p class="mb-0">Qulordo, Herat, Afghanistan, 3001</p>
+							</div>
+							<div class="d-flex mb-2">
+								<i class="bi bi-envelope-open text-primary me-2"></i>
 
-                  <!--   <a href="effectivePersonalities.html">Effective Personalities</a>
-              </li>
-              <li>
-                <a href="lettersOfAppreciation.html">Letters of Appreciation</a>
-              </li> -->
-                </ul>
-              </li>
+								<p class="mb-0">
+									<a href="mailto:info@lineinstitution.com"
+										>info@lineinstitution.com</a
+									>
+									<br />
+									<a href="mailto:ceo@lineinstitution.com"
+										>ceo@lineinstitution.com</a
+									>
+									<br />
+									<a href="mailto:salar@lineinstitution.com"
+										>salar@lineinstitution.com</a
+									>
+								</p>
+							</div>
+							<div class="d-flex mb-2">
+								<p>
+									<span
+										>Whatsapp:
+										<a href="tel:93795750350">+9379 575 0350</a></span
+									>
+									<br />
+									<span
+										>Telegram:
+										<a href="tel:93795750350">+9379 575 0350</a></span
+									>
+								</p>
+							</div>
 
-              <li class="dropdown hassubmenu">
-                <a href="about.html" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                  aria-expanded="false">Activities <span class="fa fa-angle-down"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="activities.html">Civic Activities</a></li>
-                  <li><a href="classes.html">Classes</a></li>
+							<div class="d-flex mt-4 social">
+								<a
+									class="btn btn-primary me-2"
+									href="https://www.facebook.com/DowlatSaaz?mibextid=ZbWKwL"
+									target="_blank"
+									data-tooltip="tooltip"
+									data-placement="bottom"
+									title="Line Civic Institution Facebook">
+									<i class="fa fa-facebook"></i>
+								</a>
+								<a
+									class="btn btn-primary me-2"
+									href="https://t.me/lineinstitution"
+									target="_blank"
+									data-tooltip="tooltip"
+									data-placement="bottom"
+									title="Line Civic Institution Telegram">
+									<i class="fa fa-telegram"></i>
+								</a>
+								<a
+									class="btn btn-primary me-2"
+									href="#@karamatsalar"
+									target="_blank"
+									data-tooltip="tooltip"
+									data-placement="bottom"
+									title="Karamat Salar"
+									><i class="fa fa-whatsapp"></i
+								></a>
+								<a
+									class="btn btn-primary me-2"
+									href="https://www.facebook.com/groups/1784503548482283/?ref=share"
+									target="_blank"
+									data-tooltip="tooltip"
+									data-placement="bottom"
+									title="Line Civic Institution Group">
+									<i class="fa fa-facebook-official"></i>
+								</a>
+							</div>
+						</div>
 
-                  <li><a href="graduates.html">Graduates</a></li>
+						<div
+							class="col-xl-2 col-lg-2 col-md-2 col-sm-4 media_min-width_991px pt-0 pt-lg-5 mb-5">
+							<div
+								class="section-title section-title-sm position-relative pb-3 mb-4">
+								<h3 class="text-light mb-0">Quick Links</h3>
+							</div>
 
-                  <li><a href="seminars.html">Seminars</a></li>
-                  <li><a href="workshops.html">Workshops</a></li>
-                  <li><a href="conferances.html">Conferances</a></li>
-                </ul>
-              </li>
+							<div
+								class="link-animated d-flex flex-column justify-content-start">
+								<a
+									class="text-light mb-2"
+									href="./index.html">
+									Home
+								</a>
 
+								<a
+									class="text-light mb-2"
+									href="./aboutUs.html">
+									About Us
+								</a>
 
-              <li class="dropdown hassubmenu">
-                <a href="about.html" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                  aria-expanded="false">Publications
-                  <span class="fa fa-angle-down"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="article.html">Articles</a></li>
-                  <li><a href="proposals.html">Proposals</a></li>
-                  <li><a href="books.html">Books</a></li>
-                </ul>
-              </li>
-              <li><a href="committees.html">Committees</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </header>
+								<a
+									class="text-light mb-2"
+									href="./aboutFounder.html">
+									About Founder
+								</a>
 
-    <section class="section db p120">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="tagline-message page-title text-center">
-              <h3>Committees</h3>
-              <ul class="breadcrumb">
-                <li><a href="https://www.lineinstitution.com">LINE</a></li>
-                <li class="active">Committees</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+								<a
+									class="text-light mb-2"
+									href="./activities.html">
+									Civic Activities
+								</a>
 
+								<a
+									class="text-light mb-2"
+									href="./conferances.html">
+									Conferances
+								</a>
 
-    <section class="section gb nopadtop">
-      <div class="container">
-        <div class="boxed boxedp4">
-          <div class="row display-flex">
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-20px">
-              <div class="course-box">
-                <div class="course-details">
-                  <h4>
-                    Education Committee
-                  </h4>
-                  <p>This committee focuses on developing and improving educational programs and initiatives within
-                    the civic institution.
-                    They collaborate with educators, administrators, and community members to ensure quality
-                    education and promote lifelong
-                    learning. </p>
-                </div>
+								<a
+									class="text-light mb-2"
+									href="./contact.html">
+									Contacts
+								</a>
+							</div>
+						</div>
 
-              </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-20px">
-              <div class="course-box">
+						<div
+							class="col-xl-2 col-lg-2 col-md-12 col-sm-4 media_min-width_1199px media_min-width_991px pt-0 pt-lg-5 mb-5">
+							<div
+								class="section-title section-title-sm position-relative pb-3 mb-4">
+								<h3 class="text-light mb-0">Popular Links</h3>
+							</div>
 
-                <div class="course-details">
-                  <h4>
-                    Sustainability Committee
-                  </h4>
-                  <p>The Sustainability Committee works towards making the institution environmentally responsible
-                    and sustainable. They
-                    develop and implement strategies for reducing energy consumption, managing waste, promoting
-                    conservation, and raising
-                    awareness about sustainable practices. </p>
-                </div>
+							<div
+								class="link-animated d-flex flex-column justify-content-start">
+								<a
+									class="text-light mb-2"
+									href="./committees.html">
+									Committees
+								</a>
 
-              </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-20px">
-              <div class="course-box">
+								<a
+									class="text-light mb-2"
+									href="./workshops.html">
+									Workshops
+								</a>
 
-                <div class="course-details">
-                  <h4>Arts and Culture Committee </h4>
-                  <p>The Arts and Culture Committee aims to enrich the community by promoting artistic expression
-                    and cultural appreciation.
-                    They organize exhibitions, performances, workshops, and events that celebrate various forms of
-                    art, music, dance, and
-                    theater. </p>
-                </div>
+								<a
+									class="text-light mb-2"
+									href="./graduates.html">
+									Graduates
+								</a>
 
-              </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-20px">
-              <div class="course-box">
+								<a
+									class="text-light mb-2"
+									href="./classes.html">
+									Classes
+								</a>
 
-                <div class="course-details">
-                  <h4>Outreach and Engagement Committee </h4>
-                  <p>The Outreach and Engagement Committee focuses on engaging with the local community and
-                    expanding the institution's
-                    reach. They establish partnerships, organize community outreach programs, and promote active
-                    participation to foster a
-                    sense of belonging and inclusion. </p>
-                </div>
+								<a
+									class="text-light mb-2"
+									href="./article.html">
+									Articles
+								</a>
 
-              </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-20px">
-              <div class="course-box">
+								<a
+									class="text-light mb-2"
+									href="./books.html">
+									Books
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<div class="copyrights">
+				<div class="container">
+					<div class="clearfix text-center">
+						&copy; Copyrights by
+						<a href="https://lineinstitution.com"
+							><b>LINE CIVIC INSTITUTION</b></a
+						>
+					</div>
+				</div>
+			</div>
+		</div>
 
-                <div class="course-details">
-                  <h4>Fundraising and Development Committee</h4>
-                  <p>The Fundraising and Development Committee is responsible for securing financial resources to
-                    support the institution's
-                    initiatives. They strategize and execute fundraising campaigns, seek sponsorships, and cultivate
-                    relationships with
-                    donors to ensure the institution's sustainability and growth. </p>
-                </div>
-
-              </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-20px">
-              <div class="course-box">
-
-                <div class="course-details">
-                  <h4>Governance and Ethics Committee </h4>
-                  <p>The Governance and Ethics Committee ensures transparency, accountability, and adherence to
-                    ethical standards within the
-                    civic institution. They develop and review policies, monitor compliance, and provide guidance to
-                    maintain integrity and
-                    uphold the organization's values. </p>
-                </div>
-
-              </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-20px">
-              <div class="course-box">
-
-                <div class="course-details">
-                  <h4>Volunteer and Volunteerism Committee </h4>
-                  <p>This committee oversees the institution's volunteer program, recruiting and managing volunteers
-                    who contribute their
-                    time and expertise. They assess volunteer needs, provide training and support, and recognize
-                    volunteers' efforts in
-                    advancing the institution's mission. </p>
-                </div>
-
-              </div>
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6 my-20px">
-              <div class="course-box">
-
-                <div class="course-details">
-                  <h4>Health and Wellness Committee </h4>
-                  <p>The Health and Wellness Committee promotes physical and mental well-being within the
-                    institution. They organize
-                    health-related events, provide resources on nutrition and fitness, and advocate for a healthy
-                    work environment. </p>
-                </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-
-    <footer class="container-fluid bg-dark text-light wow fadeInUp section footer noover" data-wow-delay="0.1s"
-      style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 footer-about">
-            <div class="footer-logo">
-              <img src="images/complete-full-logo.png" alt="">
-            </div>
-          </div>
-
-          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 media_min-width_991px media_min-width_991px_pt pt-5 mb-5">
-            <div class="section-title section-title-sm position-relative pb-3 mb-4">
-              <h3 class="text-light mb-0">Get In Touch</h3>
-            </div>
-            <div class="d-flex mb-2">
-              <i class="bi bi-geo-alt text-primary me-2"></i>
-
-              <p class="mb-0">Qulordo, Herat, Afghanistan, 3001</p>
-            </div>
-            <div class="d-flex mb-2">
-              <i class="bi bi-envelope-open text-primary me-2"></i>
-
-              <p class="mb-0">
-                <a href="mailto:info@lineinstitution.com">info@lineinstitution.com</a>
-                <br>
-                <a href="mailto:ceo@lineinstitution.com">ceo@lineinstitution.com</a>
-                <br>
-                <a href="mailto:salar@lineinstitution.com">salar@lineinstitution.com</a>
-              </p>
-            </div>
-            <div class="d-flex mb-2">
-              <p>
-                <span>Whatsapp: <a href="tel:93795750350">+9379 575 0350</a></span>
-                <br>
-                <span>Telegram: <a href="tel:93795750350">+9379 575 0350</a></span>
-              </p>
-            </div>
-
-            <div class="d-flex mt-4 social">
-              <a class="btn btn-primary me-2" href="https://www.facebook.com/DowlatSaaz?mibextid=ZbWKwL" target="_blank"
-                data-tooltip="tooltip" data-placement="bottom" title="Line Civic Institution Facebook">
-                <i class="fa fa-facebook"></i>
-              </a>
-              <a class="btn btn-primary me-2" href="https://t.me/lineinstitution" target="_blank" data-tooltip="tooltip"
-                data-placement="bottom" title="Line Civic Institution Telegram">
-                <i class="fa fa-telegram"></i>
-              </a>
-              <a class="btn btn-primary me-2" href="#@karamatsalar" target="_blank" data-tooltip="tooltip"
-                data-placement="bottom" title="Karamat Salar"><i class="fa fa-whatsapp"></i></a>
-              <a class="btn btn-primary me-2" href="https://www.facebook.com/groups/1784503548482283/?ref=share"
-                target="_blank" data-tooltip="tooltip" data-placement="bottom" title="Line Civic Institution Group">
-                <i class="fa fa-facebook-official"></i>
-              </a>
-            </div>
-          </div>
-
-          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 media_min-width_991px pt-0 pt-lg-5 mb-5">
-            <div class="section-title section-title-sm position-relative pb-3 mb-4">
-              <h3 class="text-light mb-0">Quick Links</h3>
-            </div>
-
-            <div class="link-animated d-flex flex-column justify-content-start">
-              <a class="text-light mb-2" href="./index.html">
-                Home
-              </a>
-
-              <a class="text-light mb-2" href="./aboutUs.html">
-                About Us
-              </a>
-
-              <a class="text-light mb-2" href="./aboutFounder.html">
-                About Founder
-              </a>
-
-              <a class="text-light mb-2" href="./activities.html">
-                Civic Activities
-              </a>
-
-              <a class="text-light mb-2" href="./conferances.html">
-                Conferances
-              </a>
-
-              <a class="text-light mb-2" href="./contact.html">
-                Contacts
-              </a>
-
-            </div>
-          </div>
-
-          <div
-            class="col-xl-2 col-lg-2 col-md-12 col-sm-4 media_min-width_1199px media_min-width_991px pt-0 pt-lg-5 mb-5">
-            <div class="section-title section-title-sm position-relative pb-3 mb-4">
-              <h3 class="text-light mb-0">Popular Links</h3>
-            </div>
-
-            <div class="link-animated d-flex flex-column justify-content-start">
-              <a class="text-light mb-2" href="./committees.html">
-                Committees
-              </a>
-
-              <a class="text-light mb-2" href="./workshops.html">
-                Workshops
-              </a>
-
-              <a class="text-light mb-2" href="./graduates.html">
-                Graduates
-              </a>
-
-              <a class="text-light mb-2" href="./classes.html">
-                Classes
-              </a>
-
-              <a class="text-light mb-2" href="./article.html">
-                Articles
-              </a>
-
-              <a class="text-light mb-2" href="./books.html">
-                Books
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <div class="copyrights">
-      <div class="container">
-        <div class="clearfix text-center">
-          &copy; Copyrights by
-          <a href="https://www.lineinstitution.com"><b>LINE CIVIC INSTITUTION</b></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/carousel.js"></script>
-  <script src="js/animate.js"></script>
-  <script src="js/custom.js"></script>
-
-</body>
-
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/carousel.js"></script>
+		<script src="js/animate.js"></script>
+		<script src="js/custom.js"></script>
+	</body>
 </html>

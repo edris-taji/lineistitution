@@ -14,12 +14,13 @@
 
 .owl-theme-01 .owl-nav [class*="owl-"] {
     background: #fff none repeat scroll 0 0;
-    border: 1px solid #eaeaea;
-    border-radius: 0;
-    color: #b9b9b9;
+    border: 1px solid #282a3540;
+    border-radius: 5px;
+    color: #fff;
     cursor: pointer;
     display: inline-block;
     font-size: 16px;
     margin: 0 7px;
     padding: 6px 15px;
+    background: #005cb8;
 }

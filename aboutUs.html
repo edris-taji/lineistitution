@@ -1,486 +1,722 @@
+<!-- @format -->
+
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html
+	class="no-js"
+	lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>LINE CIVIC INSTITUTION</title>
+		<meta
+			name="keywords"
+			content="" />
+		<meta
+			name="description"
+			content="" />
+		<meta
+			name="author"
+			content="" />
 
-  <title>LINE CIVIC INSTITUTION</title>
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
+		<link
+			rel="shortcut icon"
+			href="images/favicon.ico"
+			type="image/x-icon" />
+		<link
+			rel="apple-touch-icon"
+			href="images/apple-touch-icon.png" />
 
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900"
+			rel="stylesheet" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i"
+			rel="stylesheet" />
 
-  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700,900" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i" rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="css/bootstrap.min.css" />
+		<link
+			rel="stylesheet"
+			href="css/font-awesome.min.css" />
+		<link
+			rel="stylesheet"
+			href="css/carousel.css" />
+		<link
+			rel="stylesheet"
+			href="css/animate.css" />
+		<link
+			rel="stylesheet"
+			href="style.css" />
+	</head>
 
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/font-awesome.min.css" />
-  <link rel="stylesheet" href="css/carousel.css" />
-  <link rel="stylesheet" href="css/animate.css" />
-  <link rel="stylesheet" href="style.css" />
-</head>
+	<body>
+		<div id="preloader">
+			<div class="preloader"></div>
+		</div>
 
-<body>
-  <div id="preloader">
-    <img class="preloader" src="images/loader.gif" alt="" />
-  </div>
+		<div id="wrapper">
+			<div
+				class="modal fade"
+				id="login-modal"
+				tabindex="-1"
+				role="dialog"
+				aria-hidden="true"
+				style="display: none">
+				<div class="modal-dialog">
+					<div class="modal-content"></div>
+				</div>
+			</div>
 
-  <div id="wrapper">
+			<header
+				class="header"
+				style="padding: 10px">
+				<!-- removed -->
+				<div class="container">
+					<nav class="navbar navbar-default yamm">
+						<div class="navbar-header">
+							<button
+								type="button"
+								class="navbar-toggle collapsed"
+								data-toggle="collapse"
+								data-target="#navbar"
+								aria-expanded="false"
+								aria-controls="navbar">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<div class="logo-normal">
+								<a
+									class="navbar-brand"
+									href="index.html">
+									<img
+										src="images/logo.png"
+										alt="" />
+									<h2>LINE</h2>
+								</a>
+							</div>
+						</div>
 
-    <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-hidden="true" style="display: none">
-      <div class="modal-dialog">
-        <div class="modal-content"></div>
-      </div>
-    </div>
-
-    <header class="header" style="padding: 10px">
-      <!-- removed -->
-      <div class="container">
-        <nav class="navbar navbar-default yamm">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
-              aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div class="logo-normal">
-              <a class="navbar-brand" href="index.html">
-                <img src="images/logo.png" alt="" />
-                <h2>LINE</h2>
-              </a>
-            </div>
-          </div>
-
-          <div id="navbar" class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="index.html">Home</a></li>
-
-              <li class="dropdown hassubmenu">
-                <a href="about.html" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                  aria-expanded="false">About <span class="fa fa-angle-down"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="aboutUs.html">About US</a></li>
-                  <li><a href="aboutFounder.html">About Founder</a></li>
-                  <li><a href="members.html">Members</a></li>
-                  <li><a href="ourCollections.html">Our Collections</a></li>
-                  <!-- <li>
+						<div
+							id="navbar"
+							class="navbar-collapse collapse">
+							<ul class="nav navbar-nav navbar-right">
+								<li class="li-anim"><a href="index.html">Home</a></li>
+								<li class="dropdown hassubmenu li-anim li2 act">
+									<a
+										href="about.html"
+										class="dropdown-toggle"
+										data-toggle="dropdown"
+										role="button"
+										aria-expanded="false"
+										>About <span class="fa fa-angle-down"></span
+									></a>
+									<ul
+										class="dropdown-menu"
+										role="menu">
+										<li><a href="aboutUs.html">About US</a></li>
+										<li><a href="aboutFounder.html">About Founder</a></li>
+										<li><a href="members.html">Members</a></li>
+										<li><a href="ourCollections.html">Our Collections</a></li>
+										<!-- <li>
                     <a href="effectivePersonalities.html">Effective Personalities</a>
                   </li>
                   <li>
                     <a href="lettersOfAppreciation.html">Letters of Appreciation</a>
                   </li> -->
-                </ul>
-              </li>
+									</ul>
+								</li>
+								<li class="dropdown hassubmenu li-anim li3">
+									<a
+										href="about.html"
+										class="dropdown-toggle"
+										data-toggle="dropdown"
+										role="button"
+										aria-expanded="false"
+										>Activities <span class="fa fa-angle-down"></span
+									></a>
+									<ul
+										class="dropdown-menu"
+										role="menu">
+										<li><a href="activities.html">Civic Activities</a></li>
+										<li><a href="classes.html">Classes</a></li>
+										<!-- <li><a href="contracts.html">Contracts</a></li> -->
+										<li><a href="graduates.html">Graduates</a></li>
+										<!-- <li><a href="relationships.html">Relationships</a></li> -->
+										<li><a href="seminars.html">Seminars</a></li>
+										<li><a href="workshops.html">Workshops</a></li>
+										<li><a href="conferances.html">Conferances</a></li>
+									</ul>
+								</li>
+								<li class="dropdown hassubmenu li-anim li4">
+									<a
+										href="about.html"
+										class="dropdown-toggle"
+										data-toggle="dropdown"
+										role="button"
+										aria-expanded="false"
+										>Publications <span class="fa fa-angle-down"></span
+									></a>
+									<ul
+										class="dropdown-menu"
+										role="menu">
+										<li><a href="article.html">Articles</a></li>
+										<li><a href="proposals.html">Proposals</a></li>
+										<li><a href="books.html">Books</a></li>
+									</ul>
+								</li>
+								<li class="dropdown hassubmenu li-anim li5">
+									<a
+										href="about.html"
+										class="dropdown-toggle"
+										data-toggle="dropdown"
+										role="button"
+										aria-expanded="false"
+										>Free Studies <span class="fa fa-angle-down"></span
+									></a>
+									<ul
+										class="dropdown-menu"
+										role="menu">
+										<li><a href="researches.html">Researches</a></li>
+									</ul>
+								</li>
+								<li class="li-anim li6">
+									<a href="committees.html">Committees</a>
+								</li>
+								<li class="li-anim li7">
+									<a href="contact.html">Contact</a>
+								</li>
+								<div class="animation start-home"></div>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</header>
 
-              <li class="dropdown hassubmenu">
-                <a href="about.html" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                  aria-expanded="false">Activities <span class="fa fa-angle-down"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="activities.html">Civic Activities</a></li>
-                  <li><a href="classes.html">Classes</a></li>
-                  <!-- <li><a href="contracts.html">Contracts</a></li> -->
-                  <li><a href="graduates.html">Graduates</a></li>
-                  <!-- <li><a href="relationships.html">Relationships</a></li> -->
-                  <li><a href="seminars.html">Seminars</a></li>
-                  <li><a href="workshops.html">Workshops</a></li>
-                  <li><a href="conferances.html">Conferances</a></li>
-                </ul>
-              </li>
+			<section class="section db p120">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="tagline-message page-title text-center">
+								<h3>About US</h3>
+								<ul class="breadcrumb">
+									<li><a href="https://lineinstitution.com">LINE</a></li>
+									<li class="active">About US</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
+			<section class="section">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-8 col-lg-8 col-md-8 col-sm-8">
+							<div class="custom-module p40l">
+								<div
+									class="section-title position-relative pb-3 mb-5 wow zoomIn">
+									<h1 class="mb-0">Line Civic Instituion's Profile</h1>
+								</div>
 
-              <li class="dropdown hassubmenu">
-                <a href="about.html" class="dropdown-toggle" data-toggle="dropdown" role="button"
-                  aria-expanded="false">Publications
-                  <span class="fa fa-angle-down"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="article.html">Articles</a></li>
-                  <li><a href="proposals.html">Proposals</a></li>
-                  <li><a href="books.html">Books</a></li>
-                </ul>
-              </li>
-              <li><a href="committees.html">Committees</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </header>
+								<h3 class="wow zoomIn fw-bold">
+									<i class="fa fa-check-circle text-default"></i> Overview
+								</h3>
+								<p class="wow fadeInLeft zoomIn">
+									The Line Civic Institution is a prominent non-profit
+									Institution dedicated to fostering civic engagement and
+									community development. Founded by Mr. Salar in 2012, Line aims
+									to empower individuals to actively participate in shaping
+									their communities through various initiatives and programs.
+									With a strong commitment to democratic values, social justice,
+									and inclusivity, Line Civic Institution strives to create an
+									environment where all members of society have a voice and can
+									contribute to positive change.
+								</p>
+								<hr />
 
-    <section class="section db p120">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="tagline-message page-title text-center">
-              <h3>About US</h3>
-              <ul class="breadcrumb">
-                <li><a href="https://www.lineinstitution.com">LINE</a></li>
-                <li class="active">About US</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+								<img
+									src="images/about_us/img_1.jpg"
+									alt=""
+									class="img-responsive wow slideInRight media_img-767px_show" />
 
-    <section class="section">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-8 col-lg-8 col-md-8 col-sm-8">
+								<hr />
+								<h3 class="wow zoomIn fw-bold">
+									<i class="fa fa-check-circle text-default"></i> Key
+									Initiatives
+								</h3>
+								<h4 class="wow zoomIn fw-bold">
+									<i class="fa fa-caret-right text-default"></i> Civic Education
+									Programs
+								</h4>
+								<p class="wow fadeInLeft zoomIn">
+									The Line Civic Institution offers comprehensive civic
+									education programs to equip individuals with the knowledge and
+									skills necessary to understand their rights and
+									responsibilities as citizens. These programs range from
+									workshops on democracy and governance to seminars on human
+									rights, social issues, and community development.
+								</p>
+								<h4 class="wow zoomIn fw-bold">
+									<i class="fa fa-caret-right text-default"></i>
+									Community Engagement Projects
+								</h4>
+								<p class="wow fadeInLeft zoomIn">
+									Line facilitates grassroots initiatives that encourage
+									community participation and collaboration. These projects
+									focus on various aspects, such as neighborhood revitalization,
+									environmental sustainability, poverty alleviation, and
+									cultural integration. Through partnerships with local
+									organizations and residents, Line helps create platforms for
+									dialogue, collaboration, and collective action.
+								</p>
+								<h4 class="wow zoomIn fw-bold">
+									<i class="fa fa-caret-right text-default"></i>
+									Advocacy and Policy Influence
+								</h4>
+								<p class="wow fadeInLeft zoomIn">
+									Line Civic Institution actively engages in advocacy efforts to
+									influence policy-making and foster positive social change. By
+									raising awareness of key issues and advocating for policies
+									that promote justice, equality, and sustainability, Line aims
+									to create a more inclusive and equitable society.
+								</p>
+								<p class="wow fadeInLeft zoomIn"></p>
+								<h4 class="wow zoomIn fw-bold">
+									<i class="fa fa-caret-right text-default"></i>
+									Collaborative Partnerships
+								</h4>
+								<p class="wow fadeInLeft zoomIn">
+									Line believes in the power of collaboration and actively seeks
+									partnerships with other non-profit organizations, academic
+									institutions, government agencies, and businesses to create a
+									strong network of support. These partnerships allow for the
+									sharing of resources, expertise, and knowledge, enabling Line
+									to maximize its impact and reach a wider audience.
+								</p>
+								<h4 class="wow zoomIn fw-bold">
+									<i class="fa fa-caret-right text-default"></i>
+									Publications and Publications
+								</h4>
+								<p class="wow fadeInLeft zoomIn">
+									The institution conducts Publications on topics related to
+									civic engagement, community development, and social issues.
+									Line publishes reports, articles, and policy briefs to
+									disseminate knowledge, share best practices, and contribute to
+									informed public discourse.
+								</p>
+								<h4 class="wow zoomIn fw-bold">
+									<i class="fa fa-caret-right text-default"></i>
+									Impact and Reach
+								</h4>
+								<p class="wow fadeInLeft zoomIn">
+									Since its establishment, Line Civic Institution has made a
+									significant impact on communities across [region/country]. Its
+									programs and initiatives have reached a diverse range of
+									individuals, empowering them to become active participants in
+									democracy and community development. Through its advocacy
+									efforts, Line has successfully influenced policy decisions and
+									contributed to positive social change.
+								</p>
+								<h4 class="wow zoomIn fw-bold">
+									<i class="fa fa-caret-right text-default"></i>
+									Conclusion
+								</h4>
+								<p class="wow fadeInLeft zoomIn">
+									Line Civic Institution is a dynamic and influential
+									organization committed to promoting civic engagement, social
+									justice, and community development. Through its comprehensive
+									programs, collaborative partnerships, and advocacy efforts,
+									Line empowers individuals to actively participate in building
+									stronger, more inclusive societies. With a clear vision and a
+									strong commitment to democratic values, Line continues to make
+									a meaningful impact in the lives of individuals and
+									communities.
+								</p>
+							</div>
+						</div>
 
-            <div class="custom-module p40l">
-              <div class="section-title position-relative pb-3 mb-5">
-                <h1 class="mb-0">
-                  Line Civil Instituion's Profile
-                </h1>
-              </div>
+						<div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+							<div class="custom-module wow zoomIn">
+								<br />
+								<img
+									src="images/about_us/img_1.jpg"
+									alt=""
+									class="img-responsive wow slideInRight media_img-767px_hide" />
+								<br />
+								<img
+									src="images/about_us/img_2.jpg"
+									alt=""
+									class="img-responsive wow slideInRight" />
+								<br />
+								<img
+									src="images/about_us/img_3.jpg"
+									alt=""
+									class="img-responsive wow slideInRight" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-              <h4> ⭕ Overview</h4>
-              <p>
-                The Line Civic Institution is a prominent non-profit Institution dedicated to fostering civic engagement
-                and community
-                development. Founded by Mr. Salar in 2012, Line aims to empower individuals to actively participate in
-                shaping their
-                communities through various initiatives and programs. With a strong commitment to democratic values,
-                social justice, and
-                inclusivity, Line Civic Institution strives to create an environment where all members of society have a
-                voice and can
-                contribute to positive change.
-              </p>
-              <hr>
+			<section class="section">
+				<div class="container">
+					<div
+						class="section-title position-relative pb-3 mb-5 wow zoomIn text-center">
+						<h1 class="mb-0">Activities</h1>
+					</div>
+					<div
+						id="owl-01"
+						class="owl-carousel owl-theme owl-theme-01">
+						<div class="caro-item">
+							<div class="course-box">
+								<div class="image-wrap entry activity">
+									<img
+										src="images/activities/img__1.jpg"
+										alt=""
+										class="img-responsive" />
+									<div class="magnifier">
+										<a
+											href="images/activities/img__1.jpg"
+											title=""
+											target="_blank"
+											><i class="fa fa-eye"></i
+										></a>
+									</div>
+								</div>
 
-              <img src="images/about_us/img_1.jpg" alt=""
-                class="img-responsive wow slideInRight media_img-767px_show" />
+								<div class="course-details">
+									<h4>Educational</h4>
+									<p>
+										Holding educational class, short-term seminars and
+										educational capacity building programs for girls and boys .
+									</p>
+								</div>
+							</div>
+						</div>
 
-              <hr>
-              <h4> ⭕ Key Initiatives</h4>
-              <h4> 🔷 Civic Education Programs</h4>
-              <p>
-                The Line Civic Institution offers comprehensive civic education programs to equip individuals with the
-                knowledge and
-                skills necessary to understand their rights and responsibilities as citizens. These programs range from
-                workshops on
-                democracy and governance to seminars on human rights, social issues, and community development.
-              </p>
-              <h4> 🔷 Community Engagement Projects</h4>
-              <p>
-                Line facilitates grassroots initiatives that encourage community participation and collaboration. These
-                projects focus
-                on various aspects, such as neighborhood revitalization, environmental sustainability, poverty
-                alleviation, and cultural
-                integration. Through partnerships with local organizations and residents, Line helps create platforms
-                for dialogue,
-                collaboration, and collective action.
-              </p>
-              <h4> 🔷 Advocacy and Policy Influence</h4>
-              <p> Line Civic Institution actively engages in advocacy efforts to influence policy-making and foster
-                positive social
-                change. By raising awareness of key issues and advocating for policies that promote justice, equality,
-                and
-                sustainability, Line aims to create a more inclusive and equitable society.</p>
-              <p>
-              <h4> 🔷 Collaborative Partnerships</h4>
-              <p>
-                Line believes in the power of collaboration and actively seeks partnerships with other non-profit
-                organizations,
-                academic institutions, government agencies, and businesses to create a strong network of support. These
-                partnerships
-                allow for the sharing of resources, expertise, and knowledge, enabling Line to maximize its impact and
-                reach a wider
-                audience.
-              </p>
-              <h4> 🔷 Publications and Publications</h4>
-              <p>The institution conducts Publications on topics related to civic engagement, community development, and
-                social issues. Line
-                publishes reports, articles, and policy briefs to disseminate knowledge, share best practices, and
-                contribute to
-                informed public discourse.</p>
-              <h4> 🔷 Impact and Reach</h4>
-              <p>
-                Since its establishment, Line Civic Institution has made a significant impact on communities across
-                [region/country].
-                Its programs and initiatives have reached a diverse range of individuals, empowering them to become
-                active participants
-                in democracy and community development. Through its advocacy efforts, Line has successfully influenced
-                policy decisions
-                and contributed to positive social change.
-              </p>
-              <h4> 🔷 Conclusion</h4>
-              <p>Line Civic Institution is a dynamic and influential organization committed to promoting civic
-                engagement, social
-                justice, and community development. Through its comprehensive programs, collaborative partnerships, and
-                advocacy
-                efforts, Line empowers individuals to actively participate in building stronger, more inclusive
-                societies. With a clear
-                vision and a strong commitment to democratic values, Line continues to make a meaningful impact in the
-                lives of
-                individuals and communities.
-              </p>
+						<div class="caro-item">
+							<div class="course-box">
+								<div class="image-wrap entry activity">
+									<img
+										src="images/activities/img__2.jpg"
+										alt=""
+										class="img-responsive" />
+									<div class="magnifier">
+										<a
+											href="images/activities/img__2.jpg"
+											title=""
+											target="_blank"
+											><i class="fa fa-eye"></i
+										></a>
+									</div>
+								</div>
 
+								<div class="course-details">
+									<h4>Sports</h4>
+									<p>
+										Creating and launching sports programs for people and
+										adolescents for growth in the community.
+									</p>
+								</div>
+							</div>
+						</div>
 
-            </div>
-          </div>
+						<div class="caro-item">
+							<div class="course-box">
+								<div class="image-wrap entry activity">
+									<img
+										src="images/activities/img__3.jpg"
+										alt=""
+										class="img-responsive" />
+									<div class="magnifier">
+										<a
+											href="images/activities/img__3.jpg"
+											title=""
+											target="_blank"
+											><i class="fa fa-eye"></i
+										></a>
+									</div>
+								</div>
 
-          <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-            <div class="custom-module">
-              <br>
-              <img src="images/about_us/img_1.jpg" alt=""
-                class="img-responsive wow slideInRight media_img-767px_hide" />
-              <br />
-              <img src="images/about_us/img_2.jpg" alt="" class="img-responsive wow slideInRight" />
-              <br />
-              <img src="images/about_us/img_3.jpg" alt="" class="img-responsive wow slideInRight" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+								<div class="course-details">
+									<h4>Cultural</h4>
+									<p>
+										Stting up and holding seminars to inform about the culture
+										and traditions of diffrent ethnic groups.
+									</p>
+								</div>
+							</div>
+						</div>
 
-    <section class="section">
-      <div class="container">
-        <div class="section-title position-relative pb-3 mb-5 text-center">
-          <h1 class="mb-0">
-            Activities
-          </h1>
-        </div>
-        <div id="owl-01" class="owl-carousel owl-theme owl-theme-01">
-          <div class="caro-item">
-            <div class="course-box">
-              <div class="image-wrap entry">
-                <img src="images/activities/img__1.jpg" alt="" class="img-responsive" />
-                <div class="magnifier">
-                  <a href="images/activities/img__1.jpg" title=""><i class="flaticon-add"></i></a>
-                </div>
-              </div>
+						<div class="caro-item">
+							<div class="course-box">
+								<div class="image-wrap entry activity">
+									<img
+										src="images/activities/img__4.jpg"
+										alt=""
+										class="img-responsive" />
+									<div class="magnifier">
+										<a
+											href="images/activities/img__4.jpg"
+											title=""
+											target="_blank"
+											><i class="fa fa-eye"></i
+										></a>
+									</div>
+								</div>
 
-              <div class="course-details">
-                <h4>Educational</h4>
-                <p>
-                  Holding educational class, short-term seminars and educational capacity building programs for girls
-                  and boys .
-                </p>
-              </div>
-            </div>
-          </div>
+								<div class="course-details">
+									<h4>Social</h4>
+									<p>
+										Participating in popular activists such as cleaning the
+										city, organizing litigation programs for the people.
+									</p>
+								</div>
+							</div>
+						</div>
 
-          <div class="caro-item">
-            <div class="course-box">
-              <div class="image-wrap entry">
-                <img src="images/activities/img__2.jpg" alt="" class="img-responsive" />
-                <div class="magnifier">
-                  <a href="images/activities/img__2.jpg" title=""><i class="flaticon-add"></i></a>
-                </div>
-              </div>
+						<div class="caro-item">
+							<div class="course-box">
+								<div class="image-wrap entry activity">
+									<img
+										src="images/activities/img__4.jpg"
+										alt=""
+										class="img-responsive" />
+									<div class="magnifier">
+										<a
+											href="images/activities/img__4.jpg"
+											title=""
+											target="_blank"
+											><i class="fa fa-eye"></i
+										></a>
+									</div>
+								</div>
 
-              <div class="course-details">
-                <h4>Sports</h4>
-                <p>
-                  Creating and launching sports programs for people and adolescents
-                  for growth in the community.
-                </p>
-              </div>
-            </div>
-          </div>
+								<div class="course-details">
+									<h4>Health</h4>
+									<p>
+										Setting up first aid classes for men and women and awareness
+										seminars for the general public.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 
-          <div class="caro-item">
-            <div class="course-box">
-              <div class="image-wrap entry">
-                <img src="images/activities/img__3.jpg" alt="" class="img-responsive" />
-                <div class="magnifier">
-                  <a href="images/activities/img__3.jpg" title=""><i class="flaticon-add"></i></a>
-                </div>
-              </div>
+			<footer
+				class="container-fluid bg-dark text-light wow fadeInUp section footer noover"
+				data-wow-delay="0.1s"
+				style="
+					visibility: visible;
+					animation-delay: 0.1s;
+					animation-name: fadeInUp;
+				">
+				<div class="container">
+					<div class="row">
+						<div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 footer-about">
+							<div class="footer-logo">
+								<img
+									src="images/complete-full-logo.png"
+									alt="" />
+							</div>
+						</div>
 
-              <div class="course-details">
-                <h4>Cultural</h4>
-                <p>Stting up and holding seminars to inform about the culture and
-                  traditions of diffrent ethnic groups.</p>
-              </div>
-            </div>
-          </div>
+						<div
+							class="col-xl-3 col-lg-3 col-md-4 col-sm-4 media_min-width_991px media_min-width_991px_pt pt-5 mb-5">
+							<div
+								class="section-title section-title-sm position-relative pb-3 mb-4">
+								<h3 class="text-light mb-0">Get In Touch</h3>
+							</div>
+							<div class="d-flex mb-2">
+								<i class="bi bi-geo-alt text-primary me-2"></i>
 
-          <div class="caro-item">
-            <div class="course-box">
-              <div class="image-wrap entry">
-                <img src="images/activities/img__4.jpg" alt="" class="img-responsive" />
-                <div class="magnifier">
-                  <a href="images/activities/img__4.jpg" title=""><i class="flaticon-add"></i></a>
-                </div>
-              </div>
+								<p class="mb-0">Qulordo, Herat, Afghanistan, 3001</p>
+							</div>
+							<div class="d-flex mb-2">
+								<i class="bi bi-envelope-open text-primary me-2"></i>
 
-              <div class="course-details">
-                <h4>Social</h4>
-                <p>Participating in popular activists such as cleaning the city,
-                  organizing litigation programs for the people.</p>
-              </div>
-            </div>
-          </div>
+								<p class="mb-0">
+									<a href="mailto:info@lineinstitution.com"
+										>info@lineinstitution.com</a
+									>
+									<br />
+									<a href="mailto:ceo@lineinstitution.com"
+										>ceo@lineinstitution.com</a
+									>
+									<br />
+									<a href="mailto:salar@lineinstitution.com"
+										>salar@lineinstitution.com</a
+									>
+								</p>
+							</div>
+							<div class="d-flex mb-2">
+								Phone:
+								<a href="tel:93795750350">+9379 575 0350</a>
+							</div>
 
-          <div class="caro-item">
-            <div class="course-box">
-              <div class="image-wrap entry">
-                <img src="images/activities/img__4.jpg" alt="" class="img-responsive" />
-                <div class="magnifier">
-                  <a href="images/activities/img__4.jpg" title=""><i class="flaticon-add"></i></a>
-                </div>
-              </div>
+							<div class="d-flex mt-4 social">
+								<a
+									class="btn btn-primary me-2"
+									href="https://www.facebook.com/DowlatSaaz?mibextid=ZbWKwL"
+									target="_blank"
+									data-tooltip="tooltip"
+									data-placement="bottom"
+									title="Line Civic Institution Facebook">
+									<i class="fa fa-facebook"></i>
+								</a>
+								<a
+									class="btn btn-primary me-2"
+									href="https://t.me/lineinstitution"
+									target="_blank"
+									data-tooltip="tooltip"
+									data-placement="bottom"
+									title="Line Civic Institution Telegram">
+									<i class="fa fa-telegram"></i>
+								</a>
+								<a
+									class="btn btn-primary me-2"
+									href="#@karamatsalar"
+									target="_blank"
+									data-tooltip="tooltip"
+									data-placement="bottom"
+									title="Karamat Salar"
+									><i class="fa fa-whatsapp"></i
+								></a>
+								<a
+									class="btn btn-primary me-2"
+									href="https://www.facebook.com/groups/1784503548482283/?ref=share"
+									target="_blank"
+									data-tooltip="tooltip"
+									data-placement="bottom"
+									title="Line Civic Institution Group">
+									<i class="fa fa-facebook-official"></i>
+								</a>
+							</div>
+						</div>
 
-              <div class="course-details">
-                <h4>Health</h4>
-                <p>Setting up first aid classes for men and women and awareness
-                  seminars for the general public.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+						<div
+							class="col-xl-2 col-lg-2 col-md-2 col-sm-4 media_min-width_991px pt-0 pt-lg-5 mb-5">
+							<div
+								class="section-title section-title-sm position-relative pb-3 mb-4">
+								<h3 class="text-light mb-0">Quick Links</h3>
+							</div>
 
-    <footer class="container-fluid bg-dark text-light wow fadeInUp section footer noover" data-wow-delay="0.1s"
-      style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 footer-about">
-            <div class="footer-logo">
-              <img src="images/complete-full-logo.png" alt="">
-            </div>
-          </div>
+							<div
+								class="link-animated d-flex flex-column justify-content-start">
+								<a
+									class="text-light mb-2"
+									href="./index.html">
+									Home
+								</a>
 
-          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-4 media_min-width_991px media_min-width_991px_pt pt-5 mb-5">
-            <div class="section-title section-title-sm position-relative pb-3 mb-4">
-              <h3 class="text-light mb-0">Get In Touch</h3>
-            </div>
-            <div class="d-flex mb-2">
-              <i class="bi bi-geo-alt text-primary me-2"></i>
+								<a
+									class="text-light mb-2"
+									href="./aboutUs.html">
+									About Us
+								</a>
 
-              <p class="mb-0">Qulordo, Herat, Afghanistan, 3001</p>
-            </div>
-            <div class="d-flex mb-2">
-              <i class="bi bi-envelope-open text-primary me-2"></i>
+								<a
+									class="text-light mb-2"
+									href="./aboutFounder.html">
+									About Founder
+								</a>
 
-              <p class="mb-0">
-                <a href="mailto:info@lineinstitution.com">info@lineinstitution.com</a>
-                <br>
-                <a href="mailto:ceo@lineinstitution.com">ceo@lineinstitution.com</a>
-                <br>
-                <a href="mailto:salar@lineinstitution.com">salar@lineinstitution.com</a>
-              </p>
-            </div>
-            <div class="d-flex mb-2">
-              <p>
-                <span>Whatsapp: <a href="tel:93795750350">+9379 575 0350</a></span>
-                <br>
-                <span>Telegram: <a href="tel:93795750350">+9379 575 0350</a></span>
-              </p>
-            </div>
+								<a
+									class="text-light mb-2"
+									href="./activities.html">
+									Civic Activities
+								</a>
 
-            <div class="d-flex mt-4 social">
-              <a class="btn btn-primary me-2" href="https://www.facebook.com/DowlatSaaz?mibextid=ZbWKwL" target="_blank"
-                data-tooltip="tooltip" data-placement="bottom" title="Line Civic Institution Facebook">
-                <i class="fa fa-facebook"></i>
-              </a>
-              <a class="btn btn-primary me-2" href="https://t.me/lineinstitution" target="_blank" data-tooltip="tooltip"
-                data-placement="bottom" title="Line Civic Institution Telegram">
-                <i class="fa fa-telegram"></i>
-              </a>
-              <a class="btn btn-primary me-2" href="#@karamatsalar" target="_blank" data-tooltip="tooltip"
-                data-placement="bottom" title="Karamat Salar"><i class="fa fa-whatsapp"></i></a>
-              <a class="btn btn-primary me-2" href="https://www.facebook.com/groups/1784503548482283/?ref=share"
-                target="_blank" data-tooltip="tooltip" data-placement="bottom" title="Line Civic Institution Group">
-                <i class="fa fa-facebook-official"></i>
-              </a>
-            </div>
-          </div>
+								<a
+									class="text-light mb-2"
+									href="./conferances.html">
+									Conferances
+								</a>
 
-          <div class="col-xl-2 col-lg-2 col-md-2 col-sm-4 media_min-width_991px pt-0 pt-lg-5 mb-5">
-            <div class="section-title section-title-sm position-relative pb-3 mb-4">
-              <h3 class="text-light mb-0">Quick Links</h3>
-            </div>
+								<a
+									class="text-light mb-2"
+									href="./contact.html">
+									Contacts
+								</a>
+							</div>
+						</div>
 
-            <div class="link-animated d-flex flex-column justify-content-start">
-              <a class="text-light mb-2" href="./index.html">
-                Home
-              </a>
+						<div
+							class="col-xl-2 col-lg-2 col-md-12 col-sm-4 media_min-width_1199px media_min-width_991px pt-0 pt-lg-5 mb-5">
+							<div
+								class="section-title section-title-sm position-relative pb-3 mb-4">
+								<h3 class="text-light mb-0">Popular Links</h3>
+							</div>
 
-              <a class="text-light mb-2" href="./aboutUs.html">
-                About Us
-              </a>
+							<div
+								class="link-animated d-flex flex-column justify-content-start">
+								<a
+									class="text-light mb-2"
+									href="./committees.html">
+									Committees
+								</a>
 
-              <a class="text-light mb-2" href="./aboutFounder.html">
-                About Founder
-              </a>
+								<a
+									class="text-light mb-2"
+									href="./workshops.html">
+									Workshops
+								</a>
 
-              <a class="text-light mb-2" href="./activities.html">
-                Civic Activities
-              </a>
+								<a
+									class="text-light mb-2"
+									href="./graduates.html">
+									Graduates
+								</a>
 
-              <a class="text-light mb-2" href="./conferances.html">
-                Conferances
-              </a>
+								<a
+									class="text-light mb-2"
+									href="./classes.html">
+									Classes
+								</a>
 
-              <a class="text-light mb-2" href="./contact.html">
-                Contacts
-              </a>
+								<a
+									class="text-light mb-2"
+									href="./article.html">
+									Articles
+								</a>
 
-            </div>
-          </div>
+								<a
+									class="text-light mb-2"
+									href="./books.html">
+									Books
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<div class="copyrights">
+				<div class="container">
+					<div class="clearfix text-center">
+						&copy; Copyrights by
+						<a href="https://lineinstitution.com"
+							><b>LINE CIVIC INSTITUTION</b></a
+						>
+					</div>
+				</div>
+			</div>
+		</div>
 
-          <div
-            class="col-xl-2 col-lg-2 col-md-12 col-sm-4 media_min-width_1199px media_min-width_991px pt-0 pt-lg-5 mb-5">
-            <div class="section-title section-title-sm position-relative pb-3 mb-4">
-              <h3 class="text-light mb-0">Popular Links</h3>
-            </div>
-
-            <div class="link-animated d-flex flex-column justify-content-start">
-              <a class="text-light mb-2" href="./committees.html">
-                Committees
-              </a>
-
-              <a class="text-light mb-2" href="./workshops.html">
-                Workshops
-              </a>
-
-              <a class="text-light mb-2" href="./graduates.html">
-                Graduates
-              </a>
-
-              <a class="text-light mb-2" href="./classes.html">
-                Classes
-              </a>
-
-              <a class="text-light mb-2" href="./article.html">
-                Articles
-              </a>
-
-              <a class="text-light mb-2" href="./books.html">
-                Books
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <div class="copyrights">
-      <div class="container">
-        <div class="clearfix text-center">
-          &copy; Copyrights by
-          <a href="https://www.lineinstitution.com"><b>LINE CIVIC INSTITUTION</b></a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/carousel.js"></script>
-  <script src="js/animate.js"></script>
-  <script src="js/custom.js"></script>
-
-</body>
-
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/carousel.js"></script>
+		<script src="js/animate.js"></script>
+		<script src="js/custom.js"></script>
+	</body>
 </html>
